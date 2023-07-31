@@ -1,0 +1,108 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #CECECE;
+    ;
+}
+h1{
+    color: rgb(243, 235, 235);
+}
+ header {
+    background-color: #069696;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+   position: fixed;
+   width: 73rem;
+ }
+ a{
+    text-decoration: solid;
+    color:rgb(249, 246, 246);
+       }
+ nav{
+    margin-left: auto;
+   
+ }
+ nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 24px;
+    margin-left: 20px;
+ }
+
+
+.Landing-page{
+    background-color: #069696;
+    padding: 10rem 5rem 0 5rem;
+    color: white;
+    display: flex;
+    border-bottom-left-radius: 200px;
+}
+.Landing-page h1 {
+font-family: 'Faster One';
+font-size: 4rem;
+}
+.Landing-p{
+    width: 70%;
+}
+.Landing-page ul{
+    color: black;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.landing-description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+}
+.projects-container{
+margin-top: 5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+ flex-direction: column;
+gap: 2rem;
+}
+.project{
+    background-color: #ebe7e7;
+    width: 60%;
+    padding: 4rem;
+    display: flex;
+    border-radius: 20px;
+  }
+  .project-image{
+    height: 200px;
+    width: 50%;
+    background-color: #CECECE;
+    border-radius: 30px;
+  }
+  .project-desc{
+    width: 50%;
+
+  }
+  .project-language{
+    display: flex;
+    gap: 2rem;
+  }
+  .project-language P {
+    background-color: #069696;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    margin-top: 1rem;
+    display: flex;
+    height: 3rem;
+    border-radius: 10px;
+  }
+  .project1{
+    display: flex;
+    flex-direction: row-reverse;
+  }
